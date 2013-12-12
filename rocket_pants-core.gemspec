@@ -4,7 +4,7 @@ $:.unshift lib unless $:.include?(lib)
 
 Gem::Specification.new do |s|
   s.name                      = "rocket_pants-core"
-  s.version                   = "2.0.0.pre.1"
+  s.version                   = "2.0.0.pre.2"
   s.platform                  = Gem::Platform::RUBY
   s.authors                   = ["Darcy Laycock"]
   s.email                     = ["sutto@sutto.net"]
