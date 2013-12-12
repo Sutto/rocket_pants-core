@@ -17,10 +17,9 @@ Gem::Specification.new do |s|
   s.require_path              = 'lib'
 
   # Dependencies
-  s.add_dependency 'activesupport', '~> 3.0.0'
+  s.add_dependency 'activesupport', '~> 4.0.0'
   s.add_development_dependency 'i18n'
   s.add_development_dependency 'rake'
   s.add_development_dependency 'rr'
   s.add_development_dependency 'rspec', '~> 2.0'
-
 end
