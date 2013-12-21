@@ -4,7 +4,7 @@ $:.unshift lib unless $:.include?(lib)
 
 Gem::Specification.new do |s|
   s.name                      = "rocket_pants-core"
-  s.version                   = "2.0.0.pre.2"
+  s.version                   = "2.0.0.pre.3"
   s.platform                  = Gem::Platform::RUBY
   s.authors                   = ["Darcy Laycock"]
   s.email                     = ["sutto@sutto.net"]
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.require_path              = 'lib'
 
   # Dependencies
-  s.add_dependency 'activesupport', '~> 4.0.0'
+  s.add_dependency 'activesupport', '~> 4.0'
   s.add_development_dependency 'i18n'
   s.add_development_dependency 'rake'
   s.add_development_dependency 'rr'
